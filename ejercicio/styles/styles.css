@@ -1,0 +1,99 @@
+body{
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  max-width: 1000px;
+  margin: 0 auto;
+  color: #9B9B9B;
+
+}
+
+header{
+  padding: 20px 40px 0px 40px;
+  color: #9B9B9B;
+  max-width: 1000px;
+  min-height: 250px;
+  background-image: url("../funcy-assets/banner.png")  ;
+  background-size: 1000px 270px;
+  margin: 0 auto;
+  overflow: auto;
+
+}
+main{
+  margin: 0 auto;
+}
+footer{
+  background-color: black;
+  color: rgb(106, 108, 117);
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+  color: #9B9B9B;
+}
+
+a:hover{
+ color: black;
+}
+
+
+h1{
+  color: black;
+  text-align: center;
+}
+
+.table-container
+{
+    width: 100%;
+    overflow-y: auto;
+    _overflow: auto;
+    margin: 0 0 1em;
+}
+
+.photo{
+
+  border-radius: 50%;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.google-maps {
+  position: relative;
+  padding-top: 30%;
+  height: 0;
+  overflow: hidden;
+  }
+  .google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100% ;
+  }
+
+ul {
+    list-style-type: none;
+  }
+
+.images, .colContact{
+  width: 250px;
+  padding: 25px 25px;
+  display:inline-block;
+  margin-bottom: 30px;
+  vertical-align: top;
+}
+.prices{
+  width: 300px;
+  display:inline-block;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+
+.colFooter{
+  padding-top: 25px;
+  width: 333px;
+  display:inline-block;
+  vertical-align: middle;
+}

@@ -1,0 +1,38 @@
+body{
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  max-width: 1000px;
+  margin: 0 auto;
+
+}
+
+header{
+  padding: 20px 40px 0px 40px;
+  color: #9B9B9B;
+  max-width: 1000px;
+  min-height: 250px;
+  background-image: url("../funcy-assets/banner.png")  ;
+  background-size: 1000px 270px;
+
+  overflow: auto;
+
+}
+
+a{
+  text-decoration: none;
+  color: #9B9B9B;
+}
+
+h1{
+  color: black;
+}
+
+.photo{
+
+  border-radius: 50%;
+}
+
+.maps{
+  width: 1650px;
+}
